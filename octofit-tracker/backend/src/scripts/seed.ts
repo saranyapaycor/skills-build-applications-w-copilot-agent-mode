@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { mongoUri } from '../database';
+import { mongoUri } from '../config/database';
 import Activity from '../models/Activity';
 import Leaderboard from '../models/Leaderboard';
 import Team from '../models/Team';
